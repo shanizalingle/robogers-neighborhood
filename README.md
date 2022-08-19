@@ -15,27 +15,3 @@ Code:
 number = 5;
 Expected Output:
 ["pass 1", "pass 2", "pass 3", 4, 5];
-
-Test 4:
-Code:
-Expected Output:
-
-Test 5:
-Code:
-Expected Output:
-
-Test 6:
-Code:
-Expected Output:
-
-Test 7:
-Code:
-Expected Output:
-
-Test 8:
-Code:
-Expected Output:
-
-Test 9:
-Code:
-Expected Output:
