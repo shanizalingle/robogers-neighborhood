@@ -1,4 +1,4 @@
-roboger()
+Describe: roboger()
 Test 1: Return inputted number as an array.
 Code:
 number = 1;
@@ -10,9 +10,11 @@ number = 5;
 Expected Output:
 [0, 1, 2, 3, 4, 5]
 
-Test 3:
+Test 3: Update indexes in array that contain 1, 2, or 3
 Code:
+number = 5;
 Expected Output:
+["pass 1", "pass 2", "pass 3", 4, 5];
 
 Test 4:
 Code:
