@@ -1,37 +1,39 @@
 roboger()
-Test: Return inputted number as an array.
+Test 1: Return inputted number as an array.
 Code:
 number = 1;
 Expected Output: "1"
 
-Test:
+Test 2: Make an array from 0 -> number
+Code: 
+number = 5;
+Expected Output:
+[0, 1, 2, 3, 4, 5]
+
+Test 3:
 Code:
 Expected Output:
 
-Test:
+Test 4:
 Code:
 Expected Output:
 
-Test:
+Test 5:
 Code:
 Expected Output:
 
-Test:
+Test 6:
 Code:
 Expected Output:
 
-Test:
+Test 7:
 Code:
 Expected Output:
 
-Test:
+Test 8:
 Code:
 Expected Output:
 
-Test:
-Code:
-Expected Output:
-
-Test:
+Test 9:
 Code:
 Expected Output:

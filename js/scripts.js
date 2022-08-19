@@ -1,4 +1,9 @@
 function roboger(number) {
   const numArray = [number];
-  return numArray;
+  const newArray = [];
+  for (let i = 0; i <= number; i++) {
+    newArray.push(i);
+  }
+  return newArray;
 }
+
