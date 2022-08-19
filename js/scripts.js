@@ -22,10 +22,12 @@ function roboger(number) {
 function handleSubmission(event){
   event.preventDefault();
   const input = document.querySelector("#numberInput");
+  const result = document.querySelector("#hiddenDiv");
   const inputNumber = parseInt(input.value);
   const printArray = roboger(inputNumber);
   const resultSpan = document.querySelector("span.results");
   resultSpan.innerText = printArray;
+  result.removeAttribute("class");
 };
 
 

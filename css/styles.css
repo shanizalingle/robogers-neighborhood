@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(213, 225, 231);
+}
+.hidden {
+  display: none;
+}
+.jumbotron {
+  text-align: center;
+  background-color: rgb(21, 51, 59);
+  padding: 50px;
+}
+
+h1 {
+  font-size: 60px;
+  color: white;
+  text-shadow: rgb(67, 100, 124) 0 -5px;
+}
+.container {
+  text-align: center;
+}
+
+.container1 {
+  margin-bottom: 50px;
+}
+.enter {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(21, 51, 59);
+}
+input {
+  border-radius: 4px;
+  width: 270px;
+}
+.resultsName {
+  font-size: 40px;
+  font-weight: bold;
+  color: rgb(21, 51, 59);
+}
