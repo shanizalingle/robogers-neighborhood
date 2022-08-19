@@ -31,6 +31,13 @@ input {
   border-radius: 4px;
   width: 270px;
 }
+
+.results {
+  color:rgb(123, 136, 145);
+  font-style: italic;
+  font-size: 20px;
+}
+
 .resultsName {
   font-size: 40px;
   font-weight: bold;
