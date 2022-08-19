@@ -1,3 +1,4 @@
+// Business Logic
 function roboger(number) {
   const numArray = [number];
   const newArray = [];
@@ -13,5 +14,23 @@ function roboger(number) {
       newArray.push(i);
     }
   }
+  console.log(newArray);
   return newArray;
 }
+
+// UI Logic
+function handleSubmission(event){
+  event.preventDefault();
+  const input = document.querySelector("#numberInput");
+  const inputNumber = parseInt(input.value);
+  const printArray = roboger(inputNumber);
+  const resultSpan = document.querySelector("span.results");
+  resultSpan.innerText = printArray;
+};
+
+
+window.addEventListener("load", function(event) {
+  event.preventDefault();
+  const submitForm = document.getElementById("submit-form");
+  submitForm.addEventListener("submit", handleSubmission);
+});
