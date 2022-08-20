@@ -2,7 +2,6 @@
 function roboger(number) {
   const numArray = [number];
   const newArray = [];
-
   for (let i = 0; i <= number; i++) {
     if (i.toString().includes(3)) {
       newArray.push(" Won't you be my neighbor");
@@ -14,7 +13,6 @@ function roboger(number) {
       newArray.push(i);
     }
   }
-  console.log(newArray);
   return newArray;
 }
 
@@ -29,7 +27,6 @@ function handleSubmission(event){
   resultSpan.innerText = printArray;
   result.removeAttribute("class");
 };
-
 
 window.addEventListener("load", function(event) {
   event.preventDefault();

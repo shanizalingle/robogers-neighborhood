@@ -9,7 +9,6 @@ body {
   background-color: rgb(21, 51, 59);
   padding: 50px;
 }
-
 h1 {
   font-size: 60px;
   color: white;
@@ -18,7 +17,6 @@ h1 {
 .container {
   text-align: center;
 }
-
 .container1 {
   margin-bottom: 50px;
 }
@@ -31,13 +29,11 @@ input {
   border-radius: 4px;
   width: 270px;
 }
-
 .results {
   color:rgb(123, 136, 145);
   font-style: italic;
   font-size: 20px;
 }
-
 .resultsName {
   font-size: 40px;
   font-weight: bold;
