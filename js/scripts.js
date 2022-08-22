@@ -28,8 +28,13 @@ function handleSubmission(event){
   result.removeAttribute("class");
 };
 
+function resetForm() {
+  document.getElementById("submit-form").reset();
+  }
+
 window.addEventListener("load", function(event) {
   event.preventDefault();
   const submitForm = document.getElementById("submit-form");
   submitForm.addEventListener("submit", handleSubmission);
+  submitForm.addEventListener("submit", resetForm)
 });
